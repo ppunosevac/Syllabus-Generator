@@ -8,18 +8,9 @@ syllabi]
 \ProcessOptions
 \LoadClass{article}
 
+\RequirePackage{multicol}
 \RequirePackage{enumitem}
 \setlist{noitemsep}
-
-\RequirePackage{multicol}
-% Two-column lists (itemize, description, etc.)
-%\SetEnumitemKey{twocol}{
-%itemsep=1 \itemsep,
-%parsep=1 \parsep,
-%before=\raggedcolumns\begin{multicols}{2},
-%after=\end{multicols}}
-
-
 
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
@@ -31,19 +22,6 @@ syllabi]
 % titlesec documentation, section 3.1
 \titleformat{\section}[runin]{\normalfont\bfseries}{}{.5em}{}[:]
 
-\RequirePackage{color}
-%\RequirePackage{hyperref}
-%\DeclareOption*{\PassOptionsToPackage{\CurrentOption}{hyperref}
-%\ProcessOptions\relax
-%\hypersetup{colorlinks}
-%\definecolor{darkred}{rgb}{0.5,0,0}
-%\definecolor{darkgreen}{rgb}{0,0.5,0}
-%\definecolor{darkblue}{rgb}{0,0,0.5}
-%\hypersetup{colorlinks,
-%linkcolor=darkblue,
-%filecolor=darkgreen,
-%urlcolor=darkred,
-%citecolor=darkblue}}
 \RequirePackage{hyperref}
 \RequirePackage{url}
 
@@ -52,32 +30,22 @@ syllabi]
 {\Large \textbf{Syllabus for \coursenumber{}  {\tiny Section
 \sectionnumber{}}}}
 
-\vspace{0.2cm}
-
 {\large \textbf{\coursetitle{}}}
 \end{center}
-
-\medskip
-
 \hrule
-\vspace{0.2cm}
-
-
-%\begin{description}[twocol,leftmargin=1.1in,style=nextline]
-%\item[Term:] \courseterm{}
-%\item[Time:] \coursetime{}
-%\item[Room:] \courseroom{}
-%\item[Credit Hours:] \coursecredit{}
-%\item[Instructor:] \instructor{}
-%\item[Office:] \instructoroffice{}
-%\item[Phone:] \instructorphone{}
-%\item[E-mail:] \instructoremail{}
-%\end{description}
-
-\vspace{0.2cm}
+\begin{multicols}{2}
+    \begin{description}[labelindent=0.19in,leftmargin=1.3in,style=nextline]
+        \item[Term:] \term{}
+	\item[Time:] \sectiontime{}
+	\item[Room:] \sectionroom{}
+	\item[Credit Hours:]\coursecredit{}
+	\item[Instructor:]\instructor{}
+	\item[Office:]\instructoroffice{}
+	\item[Phone:]\instructorphone{}
+	\item[E-mail:]\instructoremail{}
+    \end{description}
+\end{multicols}
 \hrule
-
-\vspace{0.4cm}
 }
 \newcommand{\coursecontent}{
 \begin{description}[leftmargin=0in,itemsep=5pt]
