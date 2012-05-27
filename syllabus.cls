@@ -14,8 +14,8 @@ syllabi]
 \RequirePackage{multicol}
 % Two-column lists (itemize, description, etc.)
 %\SetEnumitemKey{twocol}{
-%itemsep=1\itemsep,
-%parsep=1\parsep,
+%itemsep=1 \itemsep,
+%parsep=1 \parsep,
 %before=\raggedcolumns\begin{multicols}{2},
 %after=\end{multicols}}
 
@@ -85,8 +85,8 @@ syllabi]
     \item\let\thefootnote\relax\footnotetext{\tiny \textbf {This course
         syllabus provides a general plan for the course; deviations may
         be necessary.  \coursedisclaimer{}}}
-    \vspace{-14pt}
-    \item[\textbf{Text(s):}] \coursetexts{}
+    \vspace{-18pt}
+    \item[\textbf{Text(s):}] \hfill \coursetexts{}
     \item[\textbf{Description:}]\coursedescription{}
     \item[\textbf{Prerequisite(s):}]\courseprerequisites{}
     \item[\textbf{Course Outline:}]\courseoutline{} 
@@ -125,9 +125,9 @@ syllabi]
         (706) 737-1471. Once the Office of Disability Services  has
         received appropriate documentation, they will inform your
         instructors.
-    \item[\textbf{Academic Assistance at ASU:}]
+    \item[\textbf{Academic Assistance at ASU:}] \hfill
+        \begin{enumerate}
+	    \item Math Assistance Center (MAC), Allgood Hall N337.
+        \end{enumerate}
 \end{description}
-	\begin{enumerate}
-	\item Math Assistance Center (MAC), Allgood Hall N337.
-	\end{enumerate}
 }
