@@ -4,7 +4,7 @@ SHELL = /bin/sh
 .SUFFIXES : .tex .dvi .ps .pdf
 
 # FILE = ${SRC}
-FILE = syllabus
+FILE = math1111c3
 
 LATEX = /usr/local/bin/latex
 BIBTEX = /usr/local/bin/bibtex
