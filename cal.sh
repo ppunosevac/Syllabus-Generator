@@ -1,12 +1,12 @@
 #!/bin/sh
 for i in June
 do 
-    cal  $i 2012 |sed -e '1n;s/\(..\)\(.\)/\1,\2/g'| \
+    cal  $i |sed -e '1n;s/\(..\)\(.\)/\1,\2/g'| \
     sed 's/$/,/' > $i.crap 
 done
 for i in July
 do
-    cal  $i 2012 |sed -e '1n;s/\(..\)\(.\)/\1,\2/g'| \
+    cal  $i |sed -e '1n;s/\(..\)\(.\)/\1,\2/g'| \
     sed 's/$/ \\\\ /' > $i.crap > $i.crap
 done
 paste June.crap July.crap > aux

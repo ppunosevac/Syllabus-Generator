@@ -1,7 +1,7 @@
 # This is a LaTeX Makefile created by Predrag Punosevac#
 ########################################################
 SHELL = /bin/sh
-.SUFFIXES : .tex .dvi .ps .pdf
+.SUFFIXES : .tex .dvi .ps .pdf 
 
 # FILE = ${SRC}
 FILE = math1111c3
@@ -20,18 +20,9 @@ PS = ${FILE}.ps
 PDF = ${FILE}.pdf
 
 
-
-.tex.dvi :
-	${LATEX} ${FILE}.tex
-	${LATEX} ${FILE}.tex
-.dvi.ps :
-	${DVIPS} ${DVI}
-.ps.pdf :
-	${PS2PDF} ${PS}
-
-
-
-bib :   
+cal.dat :
+	cal.sh
+bib : cal.dat  
 	${LATEX} ${FILE}.tex
 	${LATEX} ${FILE}.tex
 	${BIBTEX} ${FILE}
