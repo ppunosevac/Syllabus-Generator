@@ -4,7 +4,7 @@ SHELL = /bin/sh
 .SUFFIXES : .tex .dvi .ps .pdf 
 
 # FILE = ${SRC}
-FILE = math1111c3
+FILE = math3280a
 SCRIPT = cal-fall.sh
 
 

@@ -10,5 +10,5 @@ do
     sed 's/$/ \\\\ /' > $i.crap > $i.crap
 done
 paste June.crap July.crap > aux
-awk -f cal.awk aux > cal.dat
+awk -f cal-Jun-Jul.awk aux > cal.dat
 rm *.crap aux

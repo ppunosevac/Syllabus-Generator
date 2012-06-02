@@ -1,0 +1,74 @@
+% Items common to a course, things that don't change on a
+% semester-by-semester basis. Use as little formatting as possible, 
+% since this file might be used in several different styles of syllabi.
+\newcommand{\coursenumber}{MATH 3280}
+\newcommand{\coursetitle}{Linear Algebra}
+\newcommand{\coursecredit}{3}
+\newcommand{\coursedescription}{
+A study of vector spaces including finite-dimensional vector spaces,
+linear transformations, matrices, linear equations and determinants.
+}
+\newcommand{\coursetexts}{
+ \begingroup
+  \renewcommand
+  \section[5]
+  {\par\vspace{-0.1cm}}
+  \bibliographystyle{amsplain}
+  \bibliography{math3280}
+  \nocite{*}
+\endgroup
+}
+\newcommand{\courseprerequisites}{
+MATH 2012.
+} 
+\newcommand{\coursedisclaimer}{}
+\newcommand{\courseoutline}{
+We will be covering selected topics from chapters 1--5 of the textbook.
+}
+\newcommand{\atnd}{20} % Attendance points
+\newcommand{\courseexams}{
+There will be two 50 points in-class exams. The exams are scheduled for
+\examone and \examtwo.
+}
+\newcommand{\nhwdrop}{3} % Number of hw/quizzes dropped
+\newcommand{\coursehomework}{
+Weekly homework, consisting of ten problems, will be assigned every
+Monday. These problems will be due following Monday. Only five random
+problems will be graded on a scale 0-2 and a score 0-10 points will be
+assigned for each individual homework.  In total you may earn 100 points
+towards your final grade through homework.
+}
+\newcommand{\courseproject}{
+This course will \underline{\bf NOT be graded on a curve}. However,
+there will be one \projectpoints{} points optional MATLAB project which
+can increase your final grade. Specific projects will be assigned on an
+individual basis. If you wish to work on a project please see me during
+my regular office hours no later than \projectassign{.} The project
+submission due date is \projectdue{.}
+}
+\newcommand{\coursefinalexam}{
+The final exam is a \underline{\textbf{comprehensive}} exam worth 100
+points. The final exam will be held on \finalinfo{} in the regularly
+scheduled lecture room.  The University's final exam regulations will be
+strictly followed.
+}
+\newcommand{\coursegrades}{
+The total number of points available in the course is 320. Grades will
+be no lower than those set forth in the following table.
+       
+\begin{center}
+\begin{tabular}{|l| l| l|}
+\hline
+288-320 & 90\% to 100\% & A\\
+\hline
+256-287 & 80\% to 89.7\% & B\\
+\hline
+224-255 & 70\% to 79.7\% & C\\
+\hline
+192-223 & 60\% to 69.7\% & D\\
+\hline
+\ \ \ 0-191 & \ \ \ \ \ \ \ $<$ 60\% & F\\
+\hline
+\end{tabular}
+\end{center}
+}

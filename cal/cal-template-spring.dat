@@ -1,0 +1,330 @@
+% DEFINITIONS *************************************************
+       
+% January week one
+\def \JanWkOneMoR {$\;$ }
+\def \JanWkOneMoD {$\;$ }
+
+\def \JanWkOneTuR {$\;$ }
+\def \JanWkOneTuD {$\;$ }
+
+\def \JanWkOneWeR {$\;$ }
+\def \JanWkOneWeD {$\;$ }
+
+\def \JanWkOneThR {$\;$ }
+\def \JanWkOneThD {$\;$ }
+
+\def \JanWkOneFrR {$\;$ }
+\def \JanWkOneFrD {$\;$ }
+
+% January week two
+\def \JanWkTwoMoR {$\;$ }
+\def \JanWkTwoMoD {$\;$ }
+
+\def \JanWkTwoTuR {$\;$ }
+\def \JanWkTwoTuD {$\;$ }
+
+\def \JanWkTwoWeR {$\;$ }
+\def \JanWkTwoWeD {$\;$ }
+
+\def \JanWkTwoThR {$\;$ }
+\def \JanWkTwoThD {$\;$ }
+
+\def \JanWkTwoFrR {$\;$ }
+\def \JanWkTwoFrD {$\;$ }
+
+% January week three (Tre)
+\def \JanWkTreMoR {$\;$ }
+\def \JanWkTreMoD {$\;$ }
+
+\def \JanWkTreTuR {$\;$ }
+\def \JanWkTreTuD {$\;$ }
+
+\def \JanWkTreWeR {$\;$ }
+\def \JanWkTreWeD {$\;$ }
+
+\def \JanWkTreThR {$\;$ }
+\def \JanWkTreThD {$\;$ }
+
+\def \JanWkTreFrR {$\;$ }
+\def \JanWkTreFrD {$\;$ }
+
+
+% January week four (For)
+\def \JanWkForMoR {$\;$ }
+\def \JanWkForMoD {$\;$ }
+
+\def \JanWkForTuR {$\;$ }
+\def \JanWkForTuD {$\;$ }
+
+\def \JanWkForWeR {$\;$ }
+\def \JanWkForWeD {$\;$ }
+
+\def \JanWkForThR {$\;$ }
+\def \JanWkForThD {$\;$ }
+
+\def \JanWkForFrR {$\;$ }
+\def \JanWkForFrD {$\;$ }
+
+
+% January week five (Fiv)
+\def \JanWkFivMoR {$\;$ }
+\def \JanWkFivMoD {$\;$ }
+
+\def \JanWkFivTuR {$\;$ }
+\def \JanWkFivTuD {$\;$ }
+
+\def \JanWkFivWeR {$\;$ }
+\def \JanWkFivWeD {$\;$ }
+
+\def \JanWkFivThR {$\;$ }
+\def \JanWkFivThD {$\;$ }
+
+\def \JanWkFivFrR {$\;$ }
+\def \JanWkFivFrD {$\;$ }
+
+% February week one
+\def \FebWkOneMoR {$\;$ }
+\def \FebWkOneMoD {$\;$ }
+
+\def \FebWkOneTuR {$\;$ }
+\def \FebWkOneTuD {$\;$ }
+
+\def \FebWkOneWeR {$\;$ }
+\def \FebWkOneWeD {$\;$ }
+
+\def \FebWkOneThR {$\;$ }
+\def \FebWkOneThD {$\;$ }
+
+\def \FebWkOneFrR {$\;$ }
+\def \FebWkOneFrD {$\;$ }
+
+% Febe week two
+\def \FebWkTwoMoR {$\;$ }
+\def \FebWkTwoMoD {$\;$ }
+
+\def \FebWkTwoTuR {$\;$ }
+\def \FebWkTwoTuD {$\;$ }
+
+\def \FebWkTwoWeR {$\;$ }
+\def \FebWkTwoWeD {$\;$ }
+
+\def \FebWkTwoThR {$\;$ }
+\def \FebWkTwoThD {$\;$ }
+
+\def \FebWkTwoFrR {$\;$ }
+\def \FebWkTwoFrD {$\;$ }
+
+% Febe week three (Tre)
+\def \FebWkTreMoR {$\;$ }
+\def \FebWkTreMoD {$\;$ }
+
+\def \FebWkTreTuR {$\;$ }
+\def \FebWkTreTuD {$\;$ }
+
+\def \FebWkTreWeR {$\;$ }
+\def \FebWkTreWeD {$\;$ }
+
+\def \FebWkTreThR {$\;$ }
+\def \FebWkTreThD {$\;$ }
+
+\def \FebWkTreFrR {$\;$ }
+\def \FebWkTreFrD {$\;$ }
+
+
+% Febe week four (For)
+\def \FebWkForMoR {$\;$ }
+\def \FebWkForMoD {$\;$ }
+
+\def \FebWkForTuR {$\;$ }
+\def \FebWkForTuD {$\;$ }
+
+\def \FebWkForWeR {$\;$ }
+\def \FebWkForWeD {$\;$ }
+
+\def \FebWkForThR {$\;$ }
+\def \FebWkForThD {$\;$ }
+
+\def \FebWkForFrR {$\;$ }
+\def \FebWkForFrD {$\;$ }
+
+
+% Febe week five (Fiv)
+\def \FebWkFivMoR {$\;$ }
+\def \FebWkFivMoD {$\;$ }
+
+\def \FebWkFivTuR {$\;$ }
+\def \FebWkFivTuD {$\;$ }
+
+\def \FebWkFivWeR {$\;$ }
+\def \FebWkFivWeD {$\;$ }
+
+\def \FebWkFivThR {$\;$ }
+\def \FebWkFivThD {$\;$ }
+
+\def \FebWkFivFrR {$\;$ }
+\def \FebWkFivFrD {$\;$ }
+% DEFINITIONS *************************************************
+       
+% March week one
+\def \MarWkOneMoR {$\;$ }
+\def \MarWkOneMoD {$\;$ }
+
+\def \MarWkOneTuR {$\;$ }
+\def \MarWkOneTuD {$\;$ }
+
+\def \MarWkOneWeR {$\;$ }
+\def \MarWkOneWeD {$\;$ }
+
+\def \MarWkOneThR {$\;$ }
+\def \MarWkOneThD {$\;$ }
+
+\def \MarWkOneFrR {$\;$ }
+\def \MarWkOneFrD {$\;$ }
+
+% March week two
+\def \MarWkTwoMoR {$\;$ }
+\def \MarWkTwoMoD {$\;$ }
+
+\def \MarWkTwoTuR {$\;$ }
+\def \MarWkTwoTuD {$\;$ }
+
+\def \MarWkTwoWeR {$\;$ }
+\def \MarWkTwoWeD {$\;$ }
+
+\def \MarWkTwoThR {$\;$ }
+\def \MarWkTwoThD {$\;$ }
+
+\def \MarWkTwoFrR {$\;$ }
+\def \MarWkTwoFrD {$\;$ }
+
+% March week three (Tre)
+\def \MarWkTreMoR {$\;$ }
+\def \MarWkTreMoD {$\;$ }
+
+\def \MarWkTreTuR {$\;$ }
+\def \MarWkTreTuD {$\;$ }
+
+\def \MarWkTreWeR {$\;$ }
+\def \MarWkTreWeD {$\;$ }
+
+\def \MarWkTreThR {$\;$ }
+\def \MarWkTreThD {$\;$ }
+
+\def \MarWkTreFrR {$\;$ }
+\def \MarWkTreFrD {$\;$ }
+
+
+% March week four (For)
+\def \MarWkForMoR {$\;$ }
+\def \MarWkForMoD {$\;$ }
+
+\def \MarWkForTuR {$\;$ }
+\def \MarWkForTuD {$\;$ }
+
+\def \MarWkForWeR {$\;$ }
+\def \MarWkForWeD {$\;$ }
+
+\def \MarWkForThR {$\;$ }
+\def \MarWkForThD {$\;$ }
+
+\def \MarWkForFrR {$\;$ }
+\def \MarWkForFrD {$\;$ }
+
+
+% March week five (Fiv)
+\def \MarWkFivMoR {$\;$ }
+\def \MarWkFivMoD {$\;$ }
+
+\def \MarWkFivTuR {$\;$ }
+\def \MarWkFivTuD {$\;$ }
+
+\def \MarWkFivWeR {$\;$ }
+\def \MarWkFivWeD {$\;$ }
+
+\def \MarWkFivThR {$\;$ }
+\def \MarWkFivThD {$\;$ }
+
+\def \MarWkFivFrR {$\;$ }
+\def \MarWkFivFrD {$\;$ }
+
+% Aprilmber week one
+\def \AprWkOneMoR {$\;$ }
+\def \AprWkOneMoD {$\;$ }
+
+\def \AprWkOneTuR {$\;$ }
+\def \AprWkOneTuD {$\;$ }
+
+\def \AprWkOneWeR {$\;$ }
+\def \AprWkOneWeD {$\;$ }
+
+\def \AprWkOneThR {$\;$ }
+\def \AprWkOneThD {$\;$ }
+
+\def \AprWkOneFrR {$\;$ }
+\def \AprWkOneFrD {$\;$ }
+
+% April week two
+\def \AprWkTwoMoR {$\;$ }
+\def \AprWkTwoMoD {$\;$ }
+
+\def \AprWkTwoTuR {$\;$ }
+\def \AprWkTwoTuD {$\;$ }
+
+\def \AprWkTwoWeR {$\;$ }
+\def \AprWkTwoWeD {$\;$ }
+
+\def \AprWkTwoThR {$\;$ }
+\def \AprWkTwoThD {$\;$ }
+
+\def \AprWkTwoFrR {$\;$ }
+\def \AprWkTwoFrD {$\;$ }
+
+% April week three (Tre)
+\def \AprWkTreMoR {$\;$ }
+\def \AprWkTreMoD {$\;$ }
+
+\def \AprWkTreTuR {$\;$ }
+\def \AprWkTreTuD {$\;$ }
+
+\def \AprWkTreWeR {$\;$ }
+\def \AprWkTreWeD {$\;$ }
+
+\def \AprWkTreThR {$\;$ }
+\def \AprWkTreThD {$\;$ }
+
+\def \AprWkTreFrR {$\;$ }
+\def \AprWkTreFrD {$\;$ }
+
+
+% April week four (For)
+\def \AprWkForMoR {$\;$ }
+\def \AprWkForMoD {$\;$ }
+
+\def \AprWkForTuR {$\;$ }
+\def \AprWkForTuD {$\;$ }
+
+\def \AprWkForWeR {$\;$ }
+\def \AprWkForWeD {$\;$ }
+
+\def \AprWkForThR {$\;$ }
+\def \AprWkForThD {$\;$ }
+
+\def \AprWkForFrR {$\;$ }
+\def \AprWkForFrD {$\;$ }
+
+
+% April week five (Fiv)
+\def \AprWkFivMoR {$\;$ }
+\def \AprWkFivMoD {$\;$ }
+
+\def \AprWkFivTuR {$\;$ }
+\def \AprWkFivTuD {$\;$ }
+
+\def \AprWkFivWeR {$\;$ }
+\def \AprWkFivWeD {$\;$ }
+
+\def \AprWkFivThR {$\;$ }
+\def \AprWkFivThD {$\;$ }
+
+\def \AprWkFivFrR {$\;$ }
+\def \AprWkFivFrD {$\;$ }
