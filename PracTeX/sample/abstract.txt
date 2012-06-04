@@ -1,0 +1,19 @@
+The manufacturing of teaching material conveys the generation
+of both static (unreactive) data-documents 
+and dynamic (reactive) program-documents
+based on different technologies.
+Teaching a subject often implies the maintenance
+of a large number of both types of 
+documents, usually written in a variety of languages
+and stored in different formats.
+Ergo a natural goal for the lecturer is to minimize the amount of work invested 
+during the development and maintenance of the material.
+There are acceptable 
+solutions regarding the transformation between 
+formats with the same kind of reactivity. 
+This work discusses the problem of integrating Moodle 
+(a Open Source Learning Management System)
+and LaTeX (a  Document Preparation System),
+proposes a methodology to pursuit this goal and presents a tool to assist 
+in the translation of Moodle Quiz documents to LaTeX.
+

@@ -1,0 +1,17 @@
+La producción de material para la enseñanza conlleva
+la generación de documentos tanto estáticos (documentos no-reactivos) 
+como dinámicos (documentos reactivos) basados en diferentes tecnologías.
+La enseñanza de una asignatura a menudo implica el mantenimiento
+de un gran número de los dos tipos de documentos, habitualmente 
+escritos en diferentes lenguajes y almacenados en diferentes formatos.
+En consecuencia, un objetivo natural para el profesor
+es minimizar la cantidad de trabajo invertida durante el
+desarrollo y mantenimiento del material.
+Existen soluciones satisfactorias en lo que se refiere
+a la transformación entre formatos con el mismo tipo de reactividad.
+Este trabajo trata el problema de integrar Moodle (un Sistema Gestor de
+Enseñanza de Código Abierto) y LaTeX (un Sistema de Preparación de Documentos),
+propone una metodología para conseguir este objetivo
+y presenta una herramienta que ayuda en la traducción de 
+cuestionarios Moodle a LaTeX.
+
